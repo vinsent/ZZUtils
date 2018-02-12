@@ -48,18 +48,18 @@
 			isa = PBXGroup;
 			children = (
 				B71CFBEE2031389D00934823 /* ZZUtils.h */,
-				B71CFBF62031397500934823 /* SystemUtil */,
+				B71CFBF62031397500934823 /* BaseDefinition */,
 				B71CFBEF2031389D00934823 /* Info.plist */,
 			);
 			path = ZZUtils;
 			sourceTree = "<group>";
 		};
-		B71CFBF62031397500934823 /* SystemUtil */ = {
+		B71CFBF62031397500934823 /* BaseDefinition */ = {
 			isa = PBXGroup;
 			children = (
 				B71CFBF7203139A000934823 /* ZZUtilsDefinition.h */,
 			);
-			path = SystemUtil;
+			path = BaseDefinition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
