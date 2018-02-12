@@ -8,11 +8,11 @@
 
 *Objective-C iOS8.0+*
 
-## use
+## usage
 
 ```
 
-	pod "ZZUtils", ~> '1.0.0'
+	pod 'ZZUtils', '~> 1.0.0'
 	
 ```
 
