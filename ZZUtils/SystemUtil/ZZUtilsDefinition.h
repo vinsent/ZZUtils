@@ -19,5 +19,10 @@
 #define Weak(obj) autoreleasepool{} __weak typeof(obj) z##obj = obj;
 #define Strong(obj) autoreleasepool{} __strong typeof(obj) obj = z##obj;
 
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH                                  ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT                                 ([UIScreen mainScreen].bounds.size.height)
+#define WIDTHRADIUS                                   (SCREEN_WIDTH / 375.0)
+#define HEIGHTRADIUS                                  (SCREEN_HEIGHT / 667.0)
 
 #endif /* ZZUtilsDefinition_h */
