@@ -2,8 +2,8 @@
 //  ZZUtils.h
 //  ZZUtils
 //
-//  Created by vint on 2018/2/12.
-//  Copyright © 2018年 vinsent. All rights reserved.
+//  Created by vint on 2017/2/12.
+//  Copyright © 2017年 vinsent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

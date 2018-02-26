@@ -3,7 +3,7 @@
 //  ZZUtils
 //
 //  Created by vint on 2017/2/12.
-//  Copyright © 2018年 vinsent. All rights reserved.
+//  Copyright © 2017年 vinsent. All rights reserved.
 //
 
 #ifndef ZZUtilsDefinition_h

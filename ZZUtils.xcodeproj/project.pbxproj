@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B71CFBF02031389D00934823 /* ZZUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B71CFBEE2031389D00934823 /* ZZUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EAA0BA2043B0C00092E384 /* NSString+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EAA0B82043B0C00092E384 /* NSString+ZZExtension.h */; };
+		B7EAA0BB2043B0C00092E384 /* NSString+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EAA0B92043B0C00092E384 /* NSString+ZZExtension.m */; };
+		B7EAA0C32043DD280092E384 /* ZZStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EAA0C12043DD280092E384 /* ZZStringHelper.h */; };
+		B7EAA0C42043DD280092E384 /* ZZStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EAA0C22043DD280092E384 /* ZZStringHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +19,10 @@
 		B71CFBEE2031389D00934823 /* ZZUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUtils.h; sourceTree = "<group>"; };
 		B71CFBEF2031389D00934823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71CFBF7203139A000934823 /* ZZUtilsDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUtilsDefinition.h; sourceTree = "<group>"; };
+		B7EAA0B82043B0C00092E384 /* NSString+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZExtension.h"; sourceTree = "<group>"; };
+		B7EAA0B92043B0C00092E384 /* NSString+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZExtension.m"; sourceTree = "<group>"; };
+		B7EAA0C12043DD280092E384 /* ZZStringHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStringHelper.h; sourceTree = "<group>"; };
+		B7EAA0C22043DD280092E384 /* ZZStringHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStringHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,8 @@
 			children = (
 				B71CFBEE2031389D00934823 /* ZZUtils.h */,
 				B71CFBF62031397500934823 /* BaseDefinition */,
+				B7EAA0BC2043BD730092E384 /* UtilsHelper */,
+				B7EAA0B72043B0790092E384 /* ZZExtension */,
 				B71CFBEF2031389D00934823 /* Info.plist */,
 			);
 			path = ZZUtils;
@@ -62,6 +72,24 @@
 			path = BaseDefinition;
 			sourceTree = "<group>";
 		};
+		B7EAA0B72043B0790092E384 /* ZZExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAA0B82043B0C00092E384 /* NSString+ZZExtension.h */,
+				B7EAA0B92043B0C00092E384 /* NSString+ZZExtension.m */,
+			);
+			path = ZZExtension;
+			sourceTree = "<group>";
+		};
+		B7EAA0BC2043BD730092E384 /* UtilsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAA0C12043DD280092E384 /* ZZStringHelper.h */,
+				B7EAA0C22043DD280092E384 /* ZZStringHelper.m */,
+			);
+			path = UtilsHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -69,6 +97,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EAA0BA2043B0C00092E384 /* NSString+ZZExtension.h in Headers */,
+				B7EAA0C32043DD280092E384 /* ZZStringHelper.h in Headers */,
 				B71CFBF02031389D00934823 /* ZZUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EAA0BB2043B0C00092E384 /* NSString+ZZExtension.m in Sources */,
+				B7EAA0C42043DD280092E384 /* ZZStringHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
