@@ -58,6 +58,67 @@
     return [emailTest evaluateWithObject:email];
 }
 
+
++ (BOOL)isPureDigits: (NSString *)num {
+    NSString *pointNum = @"^\\d+$";
+    
+    NSPredicate *numPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pointNum];
+    
+    if ([numPredicate evaluateWithObject:num] == YES) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isIntegerNum:(NSString *)num {
+    NSString *pointNum = @"^[1-9]{1}\\d+$";
+    
+    NSPredicate *numPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pointNum];
+    
+    if ([numPredicate evaluateWithObject:num] == YES) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isIntegerOrDecimalNum:(NSString *)num {
+    NSString *pointNum = @"(^[0-9]+([.]{1}[0-9]+){0,1}$)";
+    
+    NSPredicate *numPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pointNum];
+    
+    if ([numPredicate evaluateWithObject:num] == YES) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isDecimalNum:(NSString *)num {
+    NSString *pointNum = @"(^[1-9]{1}[0-9]+([.]{1}[0-9]+){1}$)";
+    
+    NSPredicate *numPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pointNum];
+    
+    if ([numPredicate evaluateWithObject:num] == YES) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isTwoDecimalNum:(NSString *)num {
+    NSString *pointNum = @"(^[1-9]{1}[0-9]+([.]{1}([0-9]{1,2})){1}$)";
+    
+    NSPredicate *numPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pointNum];
+    
+    if ([numPredicate evaluateWithObject:num] == YES) {
+        return YES;
+    }
+    
+    return NO;
+}
+
 @end
 
 

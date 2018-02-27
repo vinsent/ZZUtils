@@ -33,5 +33,32 @@
  */
 + (BOOL)isValidateEmail:(NSString *)email;
 
+//------------------------------------------数字相关------------------------------------------
+
+/**
+ 判断纯数字
+ */
++ (BOOL)isPureDigits: (NSString *)num;
+
+/**
+ 判断整数
+ */
++ (BOOL)isIntegerNum:(NSString *)num;
+
+/**
+ 是否为整数或小数
+ */
++ (BOOL)isIntegerOrDecimalNum:(NSString *)num;
+
+/**
+ 判断浮点数
+ */
++ (BOOL)isDecimalNum:(NSString *)num;
+
+/**
+ 判断浮点数(小数部分最多为两位)
+ */
++ (BOOL)isTwoDecimalNum:(NSString *)num;
+
 
 @end
