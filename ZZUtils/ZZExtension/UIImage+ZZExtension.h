@@ -2,12 +2,22 @@
 //  UIImage+ZZExtension.h
 //  ZZUtils
 //
-//  Created by vint on 2018/2/28.
-//  Copyright © 2018年 vinsent. All rights reserved.
+//  Created by vint on 2017/2/28.
+//  Copyright © 2017年 vinsent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UIImage (ZZExtension)
+
+
+/**
+ 剪切圆角图片
+
+ @param radius 圆角半径
+ @param imgSize 需要剪切区域
+ @return 剪切后图片
+ */
+- (UIImage *)zz_drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize;
 
 @end
