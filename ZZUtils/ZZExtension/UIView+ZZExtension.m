@@ -43,15 +43,19 @@
 }
 
 - (void)zz_hideLoading {
-    UIView *loadingIndicator = [self viewWithTag:1101010];
-    if (loadingIndicator && [loadingIndicator isKindOfClass:[UIActivityIndicatorView class]]) {
-        [(UIActivityIndicatorView *)loadingIndicator stopAnimating];
-    }
-    
-    UIView *loadingLB = [self viewWithTag:1101001];
-    if (loadingLB && [loadingLB isKindOfClass:[UILabel class]]) {
-        [loadingLB removeFromSuperview];
-    }
+    do {
+        UIView *loadingIndicator = [self viewWithTag:1101010];
+        if (loadingIndicator && [loadingIndicator isKindOfClass:[UIActivityIndicatorView class]]) {
+            [(UIActivityIndicatorView *)loadingIndicator stopAnimating];
+            [(UIActivityIndicatorView *)loadingIndicator removeFromSuperview];
+        }
+        
+        UIView *loadingLB = [self viewWithTag:1101001];
+        if (loadingLB && [loadingLB isKindOfClass:[UILabel class]]) {
+            [loadingLB removeFromSuperview];
+        }
+        
+    } while([self viewWithTag:1101010]);
 }
 
 - (void)zz_setCornerRadius:(CGFloat)radius drawSize:(CGSize)size borderWidth:(CGFloat)lineWidth borderColor:(UIColor *)color backgroundColor:(UIColor *)backColor {
