@@ -19,5 +19,7 @@
  @param isOpaque 是否需要不透明
  */
 - (void)zz_setBackgroundImageWithColor:(UIColor *)color cornRadius:(CGFloat)cornRadius opaque:(BOOL)isOpaque;
+- (void)zz_setCornerRadius:(CGFloat)cornRadius opaque:(BOOL)isOpaque;
+- (void)zz_setCornerRadius:(CGFloat)cornRadius;
 
 @end

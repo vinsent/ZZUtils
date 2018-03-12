@@ -24,4 +24,12 @@
     [self setBackgroundImage:image forState:UIControlStateNormal];
 }
 
+- (void)zz_setCornerRadius:(CGFloat)cornRadius opaque:(BOOL)isOpaque {
+    [self zz_setBackgroundImageWithColor:self.backgroundColor cornRadius:cornRadius opaque:isOpaque];
+}
+
+- (void)zz_setCornerRadius:(CGFloat)cornRadius {
+    [self zz_setCornerRadius:cornRadius opaque:YES];
+}
+
 @end
