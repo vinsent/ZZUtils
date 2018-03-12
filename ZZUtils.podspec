@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZZUtils"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "personal utils"
   s.description  = <<-DESC
     我的工具库, Objective-C的iOS项目使用
