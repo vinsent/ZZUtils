@@ -10,11 +10,19 @@
 
 ## usage
 
+dependent on
+
 ```
 
-	pod 'ZZUtils', '~> 1.0.0'
+	pod 'ZZUtils'
 	
 ```
+interface
 
+```
+#import <ZZUtils/ZZUtils.h>
+#import <UIview+ZZExtension.h>
+
+```
 
 
