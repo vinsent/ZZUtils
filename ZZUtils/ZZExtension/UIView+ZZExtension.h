@@ -36,6 +36,6 @@
 - (void)zz_setCornerRadius:(CGFloat)radius drawSize:(CGSize)size borderWidth:(CGFloat)lineWidth borderColor:(UIColor *)color backgroundColor:(UIColor *)backColor;
 - (void)zz_setCornerRadius:(CGFloat)radius drawSize:(CGSize)size borderWidth:(CGFloat)lineWidth borderColor:(UIColor *)color;
 - (void)zz_setCornerRadius:(CGFloat)radius drawSize:(CGSize)size borderColor:(UIColor *)color;
-
+- (void)zz_setCornerRadius:(CGFloat)radius backgroundColor:(UIColor *)color;
 
 @end

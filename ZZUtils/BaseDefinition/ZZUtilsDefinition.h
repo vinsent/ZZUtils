@@ -60,6 +60,9 @@
 //Application delegate
 #define ApplicationDelegate                           ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
+//rootViewController
+#define RootViewController                            [SharedApplication.keyWindow rootViewController]
+
 //网络指示
 #define ShowNetworkActivityIndicator                  [UIApplication sharedApplication].networkActivityIndicatorVisible = YES
 #define HideNetworkActivityIndicator                  [UIApplication sharedApplication].networkActivityIndicatorVisible = NO

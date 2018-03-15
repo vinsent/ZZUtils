@@ -89,6 +89,10 @@
     [self zz_setCornerRadius:radius drawSize:size borderWidth:1.f borderColor:color];
 }
 
+- (void)zz_setCornerRadius:(CGFloat)radius backgroundColor:(UIColor *)color {
+    [self zz_setCornerRadius:radius drawSize:self.bounds.size borderWidth:0.01f borderColor:color backgroundColor:color];
+}
+
 @end
 
 
