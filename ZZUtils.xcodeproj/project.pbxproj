@@ -19,6 +19,10 @@
 		B74027832046AECD00D1CC42 /* UIButton+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B74027812046AECD00D1CC42 /* UIButton+ZZExtension.m */; };
 		B74027862046AF0F00D1CC42 /* UIImage+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B74027842046AF0F00D1CC42 /* UIImage+ZZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74027872046AF0F00D1CC42 /* UIImage+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B74027852046AF0F00D1CC42 /* UIImage+ZZExtension.m */; };
+		B777E97B2079C7A600149C0B /* ApplicationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B777E9792079C7A600149C0B /* ApplicationUtil.h */; };
+		B777E97C2079C7A600149C0B /* ApplicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B777E97A2079C7A600149C0B /* ApplicationUtil.m */; };
+		B79F7C922085C48A00224151 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = B79F7C902085C48A00224151 /* UIView+Frame.h */; };
+		B79F7C932085C48A00224151 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F7C912085C48A00224151 /* UIView+Frame.m */; };
 		B7C71BC1205A75B0003A1E1D /* UITextView+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C71BBF205A75B0003A1E1D /* UITextView+ZZExtension.h */; };
 		B7C71BC2205A75B0003A1E1D /* UITextView+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C71BC0205A75B0003A1E1D /* UITextView+ZZExtension.m */; };
 		B7EAA0BA2043B0C00092E384 /* NSString+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EAA0B82043B0C00092E384 /* NSString+ZZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +46,10 @@
 		B74027812046AECD00D1CC42 /* UIButton+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZZExtension.m"; sourceTree = "<group>"; };
 		B74027842046AF0F00D1CC42 /* UIImage+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZZExtension.h"; sourceTree = "<group>"; };
 		B74027852046AF0F00D1CC42 /* UIImage+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZZExtension.m"; sourceTree = "<group>"; };
+		B777E9792079C7A600149C0B /* ApplicationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationUtil.h; sourceTree = "<group>"; };
+		B777E97A2079C7A600149C0B /* ApplicationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationUtil.m; sourceTree = "<group>"; };
+		B79F7C902085C48A00224151 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B79F7C912085C48A00224151 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		B7C71BBF205A75B0003A1E1D /* UITextView+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZZExtension.h"; sourceTree = "<group>"; };
 		B7C71BC0205A75B0003A1E1D /* UITextView+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZZExtension.m"; sourceTree = "<group>"; };
 		B7EAA0B82043B0C00092E384 /* NSString+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZExtension.h"; sourceTree = "<group>"; };
@@ -104,6 +112,8 @@
 				B7EAA0B92043B0C00092E384 /* NSString+ZZExtension.m */,
 				B74027742046A98500D1CC42 /* UIView+ZZExtension.h */,
 				B74027752046A98500D1CC42 /* UIView+ZZExtension.m */,
+				B79F7C902085C48A00224151 /* UIView+Frame.h */,
+				B79F7C912085C48A00224151 /* UIView+Frame.m */,
 				B74027782046AEA700D1CC42 /* UIImageView+ZZExtension.h */,
 				B74027792046AEA700D1CC42 /* UIImageView+ZZExtension.m */,
 				B74027842046AF0F00D1CC42 /* UIImage+ZZExtension.h */,
@@ -123,6 +133,8 @@
 			children = (
 				B7EAA0C12043DD280092E384 /* ZZStringHelper.h */,
 				B7EAA0C22043DD280092E384 /* ZZStringHelper.m */,
+				B777E9792079C7A600149C0B /* ApplicationUtil.h */,
+				B777E97A2079C7A600149C0B /* ApplicationUtil.m */,
 			);
 			path = UtilsHelper;
 			sourceTree = "<group>";
@@ -140,10 +152,12 @@
 				B740277E2046AEBC00D1CC42 /* UILabel+ZZExtension.h in Headers */,
 				B740277A2046AEA700D1CC42 /* UIImageView+ZZExtension.h in Headers */,
 				B72A33FC205268C50066DF29 /* ZZUtilsDefinition.h in Headers */,
+				B777E97B2079C7A600149C0B /* ApplicationUtil.h in Headers */,
 				B7C71BC1205A75B0003A1E1D /* UITextView+ZZExtension.h in Headers */,
 				B7EAA0C32043DD280092E384 /* ZZStringHelper.h in Headers */,
 				B71CFBF02031389D00934823 /* ZZUtils.h in Headers */,
 				B74027762046A98500D1CC42 /* UIView+ZZExtension.h in Headers */,
+				B79F7C922085C48A00224151 /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +188,7 @@
 		B71CFBE22031389D00934823 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = vinsent;
 				TargetAttributes = {
 					B71CFBEA2031389D00934823 = {
@@ -221,7 +235,9 @@
 				B74027832046AECD00D1CC42 /* UIButton+ZZExtension.m in Sources */,
 				B7EAA0C42043DD280092E384 /* ZZStringHelper.m in Sources */,
 				B7C71BC2205A75B0003A1E1D /* UITextView+ZZExtension.m in Sources */,
+				B777E97C2079C7A600149C0B /* ApplicationUtil.m in Sources */,
 				B74027872046AF0F00D1CC42 /* UIImage+ZZExtension.m in Sources */,
+				B79F7C932085C48A00224151 /* UIView+Frame.m in Sources */,
 				B740277F2046AEBC00D1CC42 /* UILabel+ZZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +259,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -250,6 +267,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -301,6 +319,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -308,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
