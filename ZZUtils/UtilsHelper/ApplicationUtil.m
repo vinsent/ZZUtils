@@ -9,9 +9,17 @@
 #import "ApplicationUtil.h"
 #import <UserNotifications/UserNotifications.h>
 #import <AVFoundation/AVCaptureDevice.h>
+#import <CoreLocation/CoreLocation.h>
 
 @implementation ApplicationUtil
 
+
++ (void)gotoSettings {
+  
+  if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString]]) {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: UIApplicationOpenSettingsURLString]];
+  }
+}
 
 + (void)openMessageNotificationServiceWithBlock:(void(^)(BOOL isOpen))returnBlock {
   
@@ -55,6 +63,30 @@
   } else {
     isOpenBlock(YES);
   }
+}
+
+- (BOOL)isOpenLocationService {
+  BOOL bOpenLocation;
+  CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+  if (![CLLocationManager locationServicesEnabled] || status == kCLAuthorizationStatusRestricted || status == kCLAuthorizationStatusDenied) {
+    bOpenLocation = NO;
+  } else {
+    bOpenLocation = YES;
+  }
+  return bOpenLocation;
+}
+
+- (void)callPhoneWithNumber:(NSString *)number {
+  
+  NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"tel://%@",number]];
+  if (@available(iOS 10.0, *)) {
+    
+    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) { }];
+  } else {
+    
+    [[UIApplication sharedApplication] openURL:url];
+  }
+  
 }
 
 @end

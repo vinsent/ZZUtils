@@ -21,6 +21,8 @@
 		B74027872046AF0F00D1CC42 /* UIImage+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B74027852046AF0F00D1CC42 /* UIImage+ZZExtension.m */; };
 		B777E97B2079C7A600149C0B /* ApplicationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B777E9792079C7A600149C0B /* ApplicationUtil.h */; };
 		B777E97C2079C7A600149C0B /* ApplicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B777E97A2079C7A600149C0B /* ApplicationUtil.m */; };
+		B79684D920888121003D2901 /* ZZProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = B79684D720888121003D2901 /* ZZProtocolView.h */; };
+		B79684DA20888121003D2901 /* ZZProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79684D820888121003D2901 /* ZZProtocolView.m */; };
 		B79F7C922085C48A00224151 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = B79F7C902085C48A00224151 /* UIView+Frame.h */; };
 		B79F7C932085C48A00224151 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F7C912085C48A00224151 /* UIView+Frame.m */; };
 		B7C71BC1205A75B0003A1E1D /* UITextView+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C71BBF205A75B0003A1E1D /* UITextView+ZZExtension.h */; };
@@ -48,6 +50,8 @@
 		B74027852046AF0F00D1CC42 /* UIImage+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZZExtension.m"; sourceTree = "<group>"; };
 		B777E9792079C7A600149C0B /* ApplicationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationUtil.h; sourceTree = "<group>"; };
 		B777E97A2079C7A600149C0B /* ApplicationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationUtil.m; sourceTree = "<group>"; };
+		B79684D720888121003D2901 /* ZZProtocolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProtocolView.h; sourceTree = "<group>"; };
+		B79684D820888121003D2901 /* ZZProtocolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProtocolView.m; sourceTree = "<group>"; };
 		B79F7C902085C48A00224151 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		B79F7C912085C48A00224151 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		B7C71BBF205A75B0003A1E1D /* UITextView+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZZExtension.h"; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				B71CFBF62031397500934823 /* BaseDefinition */,
 				B7EAA0BC2043BD730092E384 /* UtilsHelper */,
 				B7EAA0B72043B0790092E384 /* ZZExtension */,
+				B79684D620888045003D2901 /* ZZViews */,
 				B71CFBEF2031389D00934823 /* Info.plist */,
 			);
 			path = ZZUtils;
@@ -103,6 +108,15 @@
 				B71CFBF7203139A000934823 /* ZZUtilsDefinition.h */,
 			);
 			path = BaseDefinition;
+			sourceTree = "<group>";
+		};
+		B79684D620888045003D2901 /* ZZViews */ = {
+			isa = PBXGroup;
+			children = (
+				B79684D720888121003D2901 /* ZZProtocolView.h */,
+				B79684D820888121003D2901 /* ZZProtocolView.m */,
+			);
+			path = ZZViews;
 			sourceTree = "<group>";
 		};
 		B7EAA0B72043B0790092E384 /* ZZExtension */ = {
@@ -157,6 +171,7 @@
 				B7EAA0C32043DD280092E384 /* ZZStringHelper.h in Headers */,
 				B71CFBF02031389D00934823 /* ZZUtils.h in Headers */,
 				B74027762046A98500D1CC42 /* UIView+ZZExtension.h in Headers */,
+				B79684D920888121003D2901 /* ZZProtocolView.h in Headers */,
 				B79F7C922085C48A00224151 /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B740277B2046AEA700D1CC42 /* UIImageView+ZZExtension.m in Sources */,
+				B79684DA20888121003D2901 /* ZZProtocolView.m in Sources */,
 				B74027772046A98500D1CC42 /* UIView+ZZExtension.m in Sources */,
 				B7EAA0BB2043B0C00092E384 /* NSString+ZZExtension.m in Sources */,
 				B74027832046AECD00D1CC42 /* UIButton+ZZExtension.m in Sources */,
