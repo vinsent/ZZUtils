@@ -38,7 +38,7 @@
 
  @return 是否已开启
  */
-- (BOOL)isOpenLocationService;
++ (BOOL)isOpenLocationService;
 
 
 /**
@@ -46,6 +46,14 @@
 
  @param number 手机号码
  */
-- (void)callPhoneWithNumber:(NSString *)number;
++ (void)callPhoneWithNumber:(NSString *)number;
+
+
+/**
+ 当前设备型号
+
+ @return 型号描述 eg: iPhone X
+ */
++ (NSString *)deviceHardwareDescription;
 
 @end

@@ -20,4 +20,22 @@
  */
 - (UIImage *)zz_drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize;
 
+
+/**
+ 绘制纯色图片
+
+ @param color 颜色
+ @return 图片
+ */
++ (UIImage *)imageWithColor:(UIColor*) color;
+
+
+/**
+ 改变图片色调
+
+ @param color 颜色
+ @return 图片
+ */
+- (UIImage *)changeWithColor:(UIColor *)color;
+
 @end
