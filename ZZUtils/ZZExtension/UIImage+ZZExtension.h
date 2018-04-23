@@ -18,7 +18,7 @@
  @param imgSize 需要剪切区域
  @return 剪切后图片
  */
-- (UIImage *)zz_drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize;
+- (UIImage *)drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize;
 
 
 /**

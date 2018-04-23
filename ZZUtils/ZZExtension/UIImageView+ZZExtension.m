@@ -15,7 +15,7 @@
     
     //
     if (self.image) {
-        self.image = [self.image zz_drawRectWithCornerRadius:cornerRadius sizeToFit:self.bounds.size];
+        self.image = [self.image drawRectWithCornerRadius:cornerRadius sizeToFit:self.bounds.size];
     }
 }
 

@@ -11,7 +11,7 @@
 @implementation UIImage (ZZExtension)
 
 
-- (UIImage *)zz_drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize {
+- (UIImage *)drawRectWithCornerRadius:(CGFloat)radius sizeToFit:(CGSize)imgSize {
     CGRect rect = CGRectMake(0, 0, imgSize.width, imgSize.height);
     
     UIGraphicsBeginImageContextWithOptions(imgSize, NO, [UIScreen mainScreen].scale);
