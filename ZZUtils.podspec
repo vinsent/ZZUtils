@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZZUtils"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "personal utils"
   s.description  = <<-DESC
     我的工具库, Objective-C的iOS项目使用
                    DESC
   s.homepage     = "https://github.com/vinsent/ZZUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "vinsent" => "vintsingle@gmail.com" }
+  s.author             = { "vinsent" => "vintrs@163.com" }
   s.platform     = :ios, "8.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
