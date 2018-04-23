@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/vinsent/ZZUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "vinsent" => "vintrs@163.com" }
+  s.author             = { "vinsent" => "vintsingle@gmail.com" }
   s.platform     = :ios, "8.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
