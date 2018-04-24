@@ -6,8 +6,6 @@
 //  Copyright © 2017年 vinsent. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for ZZUtils.
 FOUNDATION_EXPORT double ZZUtilsVersionNumber;
 
@@ -24,5 +22,6 @@ FOUNDATION_EXPORT const unsigned char ZZUtilsVersionString[];
 #import "UIImage+ZZExtension.h"
 #import "UILabel+ZZExtension.h"
 #import "UIButton+ZZExtension.h"
+#import "UITextField+ZZExtension.h"
 #import "UITextView+ZZExtension.h"
 

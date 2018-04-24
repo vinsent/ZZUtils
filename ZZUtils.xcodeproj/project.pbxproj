@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7009542208F252A00BAF5E3 /* UITextField+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7009540208F252A00BAF5E3 /* UITextField+ZZExtension.h */; };
+		B7009543208F252A00BAF5E3 /* UITextField+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7009541208F252A00BAF5E3 /* UITextField+ZZExtension.m */; };
 		B71CFBF02031389D00934823 /* ZZUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B71CFBEE2031389D00934823 /* ZZUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72A33FC205268C50066DF29 /* ZZUtilsDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = B71CFBF7203139A000934823 /* ZZUtilsDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74027762046A98500D1CC42 /* UIView+ZZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B74027742046A98500D1CC42 /* UIView+ZZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7009540208F252A00BAF5E3 /* UITextField+ZZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZZExtension.h"; sourceTree = "<group>"; };
+		B7009541208F252A00BAF5E3 /* UITextField+ZZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZZExtension.m"; sourceTree = "<group>"; };
 		B71CFBEB2031389D00934823 /* ZZUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71CFBEE2031389D00934823 /* ZZUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUtils.h; sourceTree = "<group>"; };
 		B71CFBEF2031389D00934823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				B740277D2046AEBC00D1CC42 /* UILabel+ZZExtension.m */,
 				B74027802046AECD00D1CC42 /* UIButton+ZZExtension.h */,
 				B74027812046AECD00D1CC42 /* UIButton+ZZExtension.m */,
+				B7009540208F252A00BAF5E3 /* UITextField+ZZExtension.h */,
+				B7009541208F252A00BAF5E3 /* UITextField+ZZExtension.m */,
 				B7C71BBF205A75B0003A1E1D /* UITextView+ZZExtension.h */,
 				B7C71BC0205A75B0003A1E1D /* UITextView+ZZExtension.m */,
 			);
@@ -164,6 +170,7 @@
 				B74027822046AECD00D1CC42 /* UIButton+ZZExtension.h in Headers */,
 				B7EAA0BA2043B0C00092E384 /* NSString+ZZExtension.h in Headers */,
 				B740277E2046AEBC00D1CC42 /* UILabel+ZZExtension.h in Headers */,
+				B7009542208F252A00BAF5E3 /* UITextField+ZZExtension.h in Headers */,
 				B740277A2046AEA700D1CC42 /* UIImageView+ZZExtension.h in Headers */,
 				B72A33FC205268C50066DF29 /* ZZUtilsDefinition.h in Headers */,
 				B777E97B2079C7A600149C0B /* ApplicationUtil.h in Headers */,
@@ -255,6 +262,7 @@
 				B74027872046AF0F00D1CC42 /* UIImage+ZZExtension.m in Sources */,
 				B79F7C932085C48A00224151 /* UIView+Frame.m in Sources */,
 				B740277F2046AEBC00D1CC42 /* UILabel+ZZExtension.m in Sources */,
+				B7009543208F252A00BAF5E3 /* UITextField+ZZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
