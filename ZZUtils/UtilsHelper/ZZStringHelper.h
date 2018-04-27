@@ -15,6 +15,7 @@
  判断字符串是否为空
  */
 + (BOOL)isEmptyString:(NSString *)str;
++ (NSString *)handleEmptyString:(NSString *)str emptyBack:(NSString *)feedBack;
 
 /**
  判断是否为手机号码

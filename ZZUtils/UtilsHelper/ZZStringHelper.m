@@ -27,6 +27,23 @@
     return NO;
 }
 
++ (NSString *)handleEmptyString:(NSString *)str emptyBack:(NSString *)feedBack {
+  if (!str || !str.length) {
+    return feedBack;
+  }
+  
+  if ([str isKindOfClass:[NSNull class]]) {
+    return feedBack;
+  }
+  
+  NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+  NSString *trimmedStr = [str stringByTrimmingCharactersInSet:set];
+  if (!trimmedStr.length) {
+    return feedBack;
+  }
+  return str;
+}
+
 + (BOOL)isPhoneNumber:(NSString *)numStr {
     if ([self isEmptyString:numStr]) {
         return NO;
